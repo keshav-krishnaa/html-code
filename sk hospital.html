@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multispeciality Hospital</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .hero {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3");
+      background-size: cover;
+      background-position: center;
+      height: 90vh;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#departments">Departments</a></li>
+          <li class="nav-item"><a class="nav-link" href="#doctors">Doctors</a></li>
+          <li class="nav-item"><a class="nav-link" href="#appointment">Appointment</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center text-white" id="home">
+    <div class="container text-center">
+      <h1 class="display-4 fw-bold">Multispeciality Hospital</h1>
+      <p class="lead">Quality Healthcare for Every Patient</p>
+      <a href="#appointment" class="btn btn-warning btn-lg">Book Appointment</a>
+    </div>
+  </section>
+
+  <!-- Departments -->
+  <section class="py-5" id="departments">58<div class="container">
+      <h2 class="text-center mb-4">Our Departments</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card text-center shadow">
+            <div class="card-body">
+              <h5 class="card-title">Cardiology</h5>
+              <p class="card-text">Advanced heart care services.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center shadow">
+            <div class="card-body">
+              <h5 class="card-title">Neurology</h5>
+              <p class="card-text">Expert brain & nerve treatment.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center shadow">
+            <div class="card-body">
+              <h5 class="card-title">Orthopedics</h5>
+              <p class="card-text">Bone & joint specialists.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Doctors -->
+  <section class="bg-light py-5" id="doctors">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Doctors</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card shadow">
+            <img src="https://via.placeholder.com/300" class="card-img-top">
+            <div class="card-body text-center">
+              <h5>Dr. Rajesh Kumar</h5>
+              <p>Cardiologist</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card shadow">
+            <img src="https://via.placeholder.com/300" class="card-img-top">
+            <div class="card-body text-center">
+              <h5>Dr. Anjali Sharma</h5>
+              <p>Neurologist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Appointment -->
+  <section class="py-5" id="appointment">
+    <div class="container">
+      <h2 class="text-center mb-4">Book Appointment</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form class="shadow p-4 rounded">
+            <input type="text" class="form-control mb-3" placeholder="Patient Name" required>
+            <input type="email" class="form-control mb-3" placeholder="Email" required>
+            <input type="tel" class="form-control mb-3" placeholder="Phone Number" required>
+            <select class="form-control mb-3">
+              <option>Select Department</option>
+              <option>Cardiology</option>
+              <option>Neurology</option>
+              <option>Orthopedics</option>
+            </select>
+            <button class="btn btn-primary w-100">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-3" id="contact">
+    <p class="mb-0">© 2026 CityCare Hospital | All Rights Reserved</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
